@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container">
+        <a href="index.html" class="navbar-brand fw-bold">
+          <i class="bi bi-briefcase-fill me-2"></i>
+          FreeLancerInvoiceApp
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="toggle-navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="mainNavbar">
+           <ul class="navbar-nav ms-auto">
+      
+             <li class="nav-item me-3 mb-2">
+               <a class="nav-link" href="clients.html">
+                 <i class="bi bi-people-fill fs-4"></i><br>
+                 <small>Clients</small>
+               </a>
+            </li>
+             <li class="nav-item me-3 mb-2">
+               <a class="nav-link" href="invoices.html">
+                  <i class="bi bi-receipt-cutoff fs-4"></i><br>
+                  <small>Invoices</small>
+               </a>
+            </li>
+
+             <li class="nav-item me-3 mb-2">
+               <a class="nav-link active" href="index.html">
+                 <i class="bi bi-speedometer2 fs-4"></i><br>
+                  <small>Dashboard</small>
+              </a>
+            </li>
+            
+           </ul>
+        </div>
+    </div>
+  </nav>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
